@@ -29,7 +29,7 @@ function renderPage(user) {
     caption5.textContent = topRated[4].name;
 
     headerName.textContent = "Dad";
-    headerPic.src = "../images/papa.jpg";
+    headerPic.src = "images/papa.jpg";
 
     document.body.appendChild(createCardContainer(topRated, "Popular"));
     document.body.appendChild(
@@ -51,7 +51,7 @@ function renderPage(user) {
     caption5.textContent = soap[4].name;
 
     headerName.textContent = "Mom";
-    headerPic.src = "../images/mamma.jpg";
+    headerPic.src = "images/mamma.jpg";
 
     document.body.appendChild(createCardContainer(topRated, "Popular"));
     document.body.appendChild(createCardContainer(soap, "Soap"));
@@ -71,7 +71,7 @@ function renderPage(user) {
     caption5.textContent = kids[4].name;
 
     headerName.textContent = "Timmy";
-    headerPic.src = "../images/luca.jpg";
+    headerPic.src = "images/luca.jpg";
 
     document.body.appendChild(createCardContainer(kids, "Kids"));
     document.body.appendChild(createCardContainer(animation, "Animation"));
@@ -94,9 +94,9 @@ function createLogin() {
   const loginUsername2El = cE("p");
   const loginUsername3El = cE("p");
   loginTitleEl.textContent = "Who's watching?";
-  loginUser1PicEl.src = "../images/papa.jpg";
-  loginUser2PicEl.src = "../images/mamma.jpg";
-  loginUser3PicEl.src = "../images/luca.jpg";
+  loginUser1PicEl.src = "images/papa.jpg";
+  loginUser2PicEl.src = "images/mamma.jpg";
+  loginUser3PicEl.src = "images/luca.jpg";
   loginUsername1El.textContent = "Dad";
   loginUsername2El.textContent = "Mom";
   loginUsername3El.textContent = "Luca";
