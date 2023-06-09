@@ -1,0 +1,13 @@
+@import "./normalize.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./cards.css";
+@import "./login.css";
+@import "./details.css";
+.hero img {
+  width: 100%;
+}
+
+body {
+  background-color: #141414;
+}

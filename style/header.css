@@ -1,0 +1,48 @@
+header {
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.35s;
+  z-index: 1;
+}
+.background_black {
+  background-color: #141414;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header_right {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  background-color: #14141470;
+  border-radius: 12px;
+  padding: 5px;
+}
+.header_right svg {
+  width: 40px;
+  height: 40px;
+}
+header .logo {
+  width: 100px;
+}
+
+.backButton {
+  width: 50px;
+}
+
+.headerPic {
+  width: 50px;
+  border-radius: 8px;
+}
