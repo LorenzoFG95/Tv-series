@@ -17,7 +17,7 @@ export function createCard(data) {
   }
 
   if (data.backdrop_path) {
-    cardImgEl.src = `https://image.tmdb.org/t/p/original${data.backdrop_path}`;
+    cardImgEl.src = `https://image.tmdb.org/t/p/w300/${data.backdrop_path}`;
   } else {
     cardImgEl.src =
       "https://as1.ftcdn.net/v2/jpg/02/99/61/74/1000_F_299617487_fPJ8v9Onthhzwnp4ftILrtSGKs1JCrbh.jpg";
